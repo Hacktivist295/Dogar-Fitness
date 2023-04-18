@@ -1,3 +1,103 @@
+
+
 body {
-    background-image: url();
+    background-color: rgba(0, 0, 0, 0.86);
+    font-family: 'Bree Serif', serif;
+    
+
+
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    background-color: auto;
+    top: 0px;
+    left: 18px;
+
+}
+
+.left img {
+    width: 99px;
+    border: 3px solid white;
+    border-radius: 50px;
+    margin: 10px 99px;
+    padding: 0px 0px;
+    display: flex;
+}
+
+.left div {
+    text-align: center;
+    font-size: 33px;
+    width: 32%;
+    color: white;
+    padding: 0px;
+    margin: -26px 88px;
+    display: inline-block;
+}
+.mid {
+    display: block;
+    width: 40%;
+    margin: 34px auto;
+
+
+
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+
+
+}
+
+.navbar li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+}
+
+
+
+.container{
+    border: 0px solid white;
+    margin: 9pc auto;
+    padding: 0px 0px;
+    width: 100%;
+    border-radius: 9px;
+    
+}
+.searchbar {
+    background-color: auto;
+    width: 20%;
+    text-align: -webkit-right;
+    display: flex;
+    margin: 40px 1073px
+}
+.btn {
+    color: white;
+    font-size: 24px;
+    border-radius: 19px;
+    border: 4px solid grey;
+    margin: 0px 15px;
+}
+#search{
+    padding: 5px;
+    font-size: 18px;
+    border: 4px solid grey;
+    border-radius: 19px;
+}
+.adver {
+color: white;
+text-align: center;
 }
