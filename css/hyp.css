@@ -101,6 +101,7 @@ body {
     margin: 4px auto;
     font-size: 28px;
     border-radius: 9px;
+    inset-block: auto;
 }
 
 .container h1 {

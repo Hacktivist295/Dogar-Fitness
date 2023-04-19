@@ -20,14 +20,19 @@
 
 .navbar {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
 }
 
 .nav-list {
-    width: 50%;
-    
+    width: 60%;
     align-items: center;
     justify-content: center;
     display: flex;
+    
 }
 
 .nav-list li {
@@ -50,25 +55,81 @@
 
 .rightnav {
     
-    width: 50%;
+    width: 39%;
     text-align: right;
+    margin: 0px 0px;
+    padding: 22px 22px;
 }
 #Search {
     padding:5px;
-    font-size:24px;
-    border-radius: 9px;
+    font: size 21px;
+    border-radius: 13px;
     border:3px solid grey;
 }
 .btn{
-    font-size: 24px;
-    background-color: none;
+    
+    background-color:auto;
     color:white;
-    border:4px solid white;
-    border-radius: 9px;
+    border:4px solid rgb(171, 164, 164);
+    border-radius: 18px;
+    padding: 1px 19px;
+    margin: 0px 0px;
+    cursor: pointer;
+    
     
 }
 .background {
-    background: rgba(0, 0, 0, 0.7) url('../img/conbg.jpg');
+    background: rgba(0, 0, 0, 0.7) url('/img/conbg.jpg');
     background-size: cover;
     background-blend-mode: darken;
+}
+
+.text-big{
+    font-size: 50px;
+}
+.text-small{
+font-size: 25px;
+}
+.contact{
+    color:white;
+    height: 833px;
+}
+.text-center{
+    text-align: center;
+    padding: 24px;
+}
+.form{
+    max-width: 500px;
+    margin: 0px auto;
+}
+.form-input{
+    width: 100%;
+    font-size: 19px;
+    border:4px solid grey;
+    border-radius:6px;
+    margin: 13px 0px;
+    padding: 5px 3px;
+    color: black;
+    background-color: auto;
+}
+.form-output{
+    width: 100%;
+    font-size: 19px;
+    border:4px solid grey;
+    border-radius:6px;
+    margin: 13px 0px;
+    padding: 5px 3px;
+    color: black;
+    background-color: auto;
+    height: 139px;
+}
+
+.btn-dark{
+    
+    color: white;
+    font-size: 24px;
+    border-radius: 19px;
+    border: 3px solid grey;
+    margin: 3px 24px;
+    width: 40%;
 }
