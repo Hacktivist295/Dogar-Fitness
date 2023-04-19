@@ -101,3 +101,12 @@ body {
 color: white;
 text-align: center;
 }
+.card{
+    background-color:rgba(27, 26, 26, 0.86);
+}
+.card-title {
+    color: white;
+}
+.card-text{
+    color:rgb(177, 171, 171);
+}

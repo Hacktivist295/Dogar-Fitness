@@ -2,7 +2,7 @@ body {
     color: rgb(247, 237, 237);
     margin: 0psx;
     padding: 0%;
-    background-image: url('../img/bg.jpg');
+    background-image: url('/img/bg.jpg');
     height: 100;
     font-family: 'Bree Serif', serif;
 }
