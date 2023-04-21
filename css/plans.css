@@ -1,7 +1,13 @@
-body{
-    background-color: blueviolet;
+* {
+    margin: 0;
+    padding: 0;}
+body {
+    color: rgb(57, 54, 54);
+    margin: 0psx;
+    padding: 0%;
+    background-image: url('/img/reallogo.png');
+    height: 100;
     font-family: 'Bree Serif', serif;
-    
 }
 
 .header {
@@ -10,24 +16,41 @@ body{
     font-family: 'Bree Serif',serif;
     
 }
-
-.navbar {
-    display: inline-block;
-    text-align: center;
-    border: solid 4px red;
-    width: 50%;
+.logo {
+    width: 20%;
     display: flex;
     justify-content: center;
-    margin: 0px 745px;
-    padding: 14px 0px
+    align-items: center;
+}
+.logo img {
+    width: 51%;
+    border: 4px solid white;
+    border-radius: 50px;
+    padding: 0px 0px;
+
+}
+
+.mid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    padding: 0px 20px;
+}
+.navbar {
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .navbar li {
-    display: inline-block;
+    list-style: none;
+    display: flex;
+    padding: 0px 13px;
     font-size: 25px;
-    display: inline-block;
-    font-size: 29px;
-    padding: 11px 0px;
 
 }
 
@@ -41,4 +64,100 @@ body{
 .navbar li a.active {
     text-decoration: underline;
     color: grey;
+}
+.rightnav {
+    width: 39%;
+    text-align: right;
+    margin: 0px 0px;
+    padding: 22px 22px;}
+.btn-sm{
+    border: solid white;
+    color: white;
+    background: #0ea213;
+    border-radius: 13px;
+    font-size: 34px;
+    margin: 0px auto;
+    width: 46%;
+    transform: scale(0.8);
+}
+.btn:is(:hover, :focus){
+    outline-offset:3px;
+}
+    
+
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('/img/conbg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;}
+.midsec{
+    width: 100%;
+    background-color: #232425;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    height:140px;
+}
+.trail{
+    text-align: center;
+    justify-content: center;
+    font-size: 100px;
+}
+.container {
+    border: 0px solid white;
+    margin: 9pc auto;
+    padding: 0px 0px;
+    width: 100%;
+    border-radius: 9px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 45px auto;
+}
+.ridsec {
+    width: 100%;
+    color:white;
+}
+.mem {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 35px;
+}
+.ber {
+    display: flex;
+    align-items: left;
+    font-size: xx-large;
+}
+.card-body{
+    background-color: black;
+    color: rgb(253, 253, 253);
+    
+}
+.card-img-top {
+    background-color: black;
+    
+}
+.title {
+    background-color: black;
+    color: white;
+}
+.card-text {
+    color:white;
+}
+.loop li{
+    background-color: rgb(12, 12, 12);
+    color:white;
+}
+.but{
+    background-color:blue;
+    color:white;
+    border: solid blue;
+    border-radius: 9px;
+}
+.but:hover,
+.but:focus{
+    outline-offset: 3px;
+}
+.untrail {
+    text-decoration: none;
+    color:white;
 }
